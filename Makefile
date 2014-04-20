@@ -8,6 +8,8 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
+S3_BUCKET=nestweb
+
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
@@ -56,5 +58,9 @@ publish:
 github: publish
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
+
+s3_upload: publish
+	[ -e .s3cfg ] || s3cmd --config=./.s3cfg --configure
+	s3cmd --config=./.s3cfg sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
 
 .PHONY: html help clean regenerate serve devserver publish github
