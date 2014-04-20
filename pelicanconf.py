@@ -35,10 +35,10 @@ DEFAULT_PAGINATION = False
 # cebong
 # chunk
 # pelican-cait
-THEME = "theme"
+THEME = "themes/chunk"
 THEME_STATIC_DIR = "theme"
 
 FILES_TO_COPY = (('CNAME', 'CNAME'),)
 
 PLUGIN_PATH = 'plugins/pelican-plugins'
-PLUGINS = ['assets', 'gzip_cache', 'optimize_images']
+PLUGINS = ['assets', 'optimize_images']

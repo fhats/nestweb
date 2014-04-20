@@ -17,3 +17,4 @@ wsgiref==0.1.2
 webassets==0.9
 cssmin==0.2.0
 PIL==1.1.7
+s3cmd>=1.5.0,<1.5.1
