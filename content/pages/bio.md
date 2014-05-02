@@ -3,6 +3,7 @@ Date: 2014-04-18 13:00
 Category: Pages
 Slug: bio
 Author: Eric, Fred, Jerry, and Steve
+Order: 2
 
 The Nest is a San Francisco folk rock band with a simple goal of making music
 fun. This group of talented and diverse musicians have roots ranging from folk

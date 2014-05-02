@@ -2,6 +2,7 @@ Title: Shows
 Category: Pages
 Slug: shows
 Author: Eric, Fred, Jerry, and Steve
+Order: 1
 
 # Upcoming Shows
 
