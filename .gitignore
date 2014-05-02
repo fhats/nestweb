@@ -38,3 +38,6 @@ nosetests.xml
 *.sass-cache
 *.pid
 output/
+
+# Credentials
+*.s3cfg

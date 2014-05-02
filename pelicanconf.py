@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Eric, Etan, Fred, Genny, & Steve'
+AUTHOR = u'Eric, Fred, Jerry, & Steve'
 SITENAME = u'The Nest'
 SITEURL = ''
 STATIC_PATHS = ['images']
@@ -35,6 +35,10 @@ DEFAULT_PAGINATION = False
 # cebong
 # chunk
 # pelican-cait
-THEME = "theme"
+THEME = "themes/chunk"
+THEME_STATIC_DIR = "theme"
 
 FILES_TO_COPY = (('CNAME', 'CNAME'),)
+
+PLUGIN_PATH = 'plugins/pelican-plugins'
+PLUGINS = ['assets', 'optimize_images']

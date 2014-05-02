@@ -15,9 +15,9 @@ the songs, one while playing playing a variety of stringed instruments, and the
 other rocking the drumset. Fred Hatfull plays both tasty and tasteful electric
 guitar leads, while Jerry Mark holds down the low end on bass.
 
-[![basic](/static/images/thumb_The_Nest_basic.jpg)](/static/images/The_Nest_basic.jpg)
+[![basic](/images/thumb_The_Nest_basic.jpg)](/images/The_Nest_basic.jpg)
 
-[![basic](/static/images/thumb_The_Nest_doorway.jpg)](/static/images/The_Nest_doorway.jpg)
+[![basic](/images/thumb_The_Nest_doorway.jpg)](/images/The_Nest_doorway.jpg)
 
-[![basic](/static/images/thumb_The_Nest_greendoor.jpg)](/static/images/The_Nest_greendoor.jpg)
+[![basic](/images/thumb_The_Nest_greendoor.jpg)](/images/The_Nest_greendoor.jpg)
 
